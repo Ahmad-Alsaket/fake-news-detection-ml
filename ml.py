@@ -19,8 +19,8 @@ from sklearn.metrics import (
 
 # 1) Load the dataset
 # ============================================
-fake = pd.read_csv(r"C:\Users\USER\Documents\vspython\Fake.csv")
-real = pd.read_csv(r"C:\Users\USER\Documents\vspython\True.csv")
+fake = pd.read_csv("Fake.csv")
+real = pd.read_csv("True.csv")
 
 # Add labels:
 fake["label"] = 0
